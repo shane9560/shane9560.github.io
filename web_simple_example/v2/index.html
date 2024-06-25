@@ -7,20 +7,20 @@
     <script>
         $(document).ready(function(){
                 $("button").click(function(){
-                $(".N").hide();
+                $(".N").fadeIn();
             });
             $("img").mouseenter(function(){
                 $("#FDin").fadeIn();
             });
-        )};
+        });
     </script>
 </head>
 <body>
 
-<h1 class="N">基本的網頁...吧</h1>
-<p class="N">老實說我也不知道這裡該寫些什麼</p>
+<h1 class="N" style="display:none">基本的網頁...吧</h1>
+<p class="N" style="display:none">老實說我也不知道這裡該寫些什麼</p>
 
-<h2 class="N">(嗯...我想這裡應該可以放一些什麼)</h2>
+<h2 class="N" style="display:none">(嗯...我想這裡應該可以放一些什麼)</h2>
 <p>簡單來說就是被自家藝人__的P</p>
 <ul>
     <li>嗯對，但不是她(下面的那位)</li>
@@ -35,7 +35,7 @@
 <p id="FDin" style="display:none;">不過我還沒有她的SSR卡就是</p>
 
 <p class="large" class="N">style from "/style.css"</p>
-<button>去除文字</button>
+<button>互動(點擊)</button>
 
 </body>
 </html>
